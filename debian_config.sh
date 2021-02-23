@@ -16,7 +16,7 @@ fi
 touch /.setup_has_not_done
 
 # Github repo page to fetch files
-URL_REPO="https://raw.githubusercontent.com/WMCB-Tech/debdroid-ng/master"
+URL_REPO="https://raw.githubusercontent.com/WMCB-Tech/debdroid-ng/testing"
 
 # Suppress Some Errors if trying to configure
 rm -rf /etc/ld.so.preload
