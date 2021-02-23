@@ -19,7 +19,7 @@ else
 fi
 
 # URL Link
-URL_REPO="https://raw.githubusercontent.com/WMCB-Tech/debdroid-ng/master"
+URL_REPO="https://raw.githubusercontent.com/WMCB-Tech/debdroid-ng/testing"
 
 # Function to handle signal trap
 sigtrap(){
