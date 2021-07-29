@@ -158,7 +158,7 @@ cat > "${DEBIAN_FS}/var/debdroid/binds/fuptime" <<- EOM
 9694.45 28998.24
 EOM
 # /proc/sys/kernel/cap_last_cap (needed for dbus)
-echo 0 > "${DEBIAN_FS}/var/debdroid/binds/fcap_last_cap" 
+echo 0 > "${DEBIAN_FS}/var/debdroid/binds/fcap_last_cap"
 }
 
 # Load procfiles

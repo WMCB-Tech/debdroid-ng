@@ -92,7 +92,7 @@ cat > /usr/local/bin/addusers <<- EOM
 ########################################################################
 # This Script allows to create one or more users easily
 # And can be granted with sudo access automatically
-# 
+#
 # For Changing Users, user must value a username within echo from file:
 # /var/debdroid/userinfo.rc
 ########################################################################
@@ -167,7 +167,7 @@ fi
 hostname_info=$(
         dialog --title "Finish Debian Setup" --backtitle "DebDroid Configuration" \
             --nocancel --inputbox "Enter your hostname to uniquely identify your container, you may leave it blank for defaults, you may customize it again later by editing /etc/hostname" 12 40 \
-            3>&1 1>&2 2>&3 3>&- 
+            3>&1 1>&2 2>&3 3>&-
     )
 
 if [ ! -z "${hostname_info}" ]; then

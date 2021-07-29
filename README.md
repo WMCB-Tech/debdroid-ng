@@ -2,7 +2,7 @@
 DebDroid - Debian for Android OS!
 > Actually, this is a improved version of DebDroid, but uses the script-based and much more fresher than the old one, and has more refined features like improved installer interface, supporting multiple installations and much more
 
-[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://bit.ly/WMCBDiscord) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) 
+[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://bit.ly/WMCBDiscord) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 ![debdroid](https://raw.githubusercontent.com/WMCB-Tech/debdroid-ng/master/images/neofetch.png)
 
@@ -86,7 +86,7 @@ You can add users with the command `addusers` so you can create user account and
 sudo addusers <user>
 ```
 
-You can set the default user account by echoing the value of your user 
+You can set the default user account by echoing the value of your user
 ```
 echo <username> > /var/debdroid/userinfo.rc
 ```
