@@ -10,7 +10,7 @@ DebDroid - Debian for Android OS!
 DebDroid is an Debian Installer for the Android OS, this method of installing Debian on Android does not require root access and you can run your favorite Linux Applications Easily
 
 > There's innovation in Linux. There are some really good technical features that I'm proud of. There are capabilities in Linux that aren't in other operating systems \
- -- Linus Torvalds
+	-- Linus Torvalds
 
 # About DebDroid,
 DebDroid will install Debian Container within termux, creates a fresh debian prefix for the location of the container, usually it will be placed in: \

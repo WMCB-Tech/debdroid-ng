@@ -203,10 +203,10 @@ prootargs="--link2symlink --kill-on-exit"
 prootargs+=" --root-id -L -H -p"
 # Check for Android Version
 case "$(getprop ro.build.version.release)" in
-    5*|6*) ;;
-    *)
-    prootargs+=" --sysvipc"
-    ;;
+	5*|6*) ;;
+	*)
+	prootargs+=" --sysvipc"
+	;;
 esac
 prootargs+=" --rootfs=${DEBIAN_FS}"
 prootargs+=" --cwd=/root"
